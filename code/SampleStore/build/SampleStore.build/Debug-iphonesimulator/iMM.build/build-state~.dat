@@ -1,0 +1,1632 @@
+TiMM
+v7
+r0
+t309205529.206920
+cCheck dependencies
+cProcessInfoPlistFile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/Info.plist SampleStore-Info.plist
+cCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/MainWindow.xib
+cCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/ChampViewController.xib
+cCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemWebViewController.xib
+cCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemViewController.xib
+cCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSplashViewController.xib
+cCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomCell.xib
+cCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesViewController.xib
+cCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSearchViewController.xib
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/table_middle.png Resources/table_middle.png
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/medica.sqlite Resources/medica.sqlite
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Message.htm Resources/Message.htm
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/table_bottom.png Resources/table_bottom.png
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/table_top.png Resources/table_top.png
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/tablecellSinglerow.png Resources/tablecellSinglerow.png
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/TableCellArrow.png Resources/TableCellArrow.png
+cCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesListViewController.xib
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Notes.sqlite Resources/Notes.sqlite
+cCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCommonCell.xib
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/FAQ.htm Resources/FAQ.htm
+cCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomNoteCell.xib
+cCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemInfoViewController.xib
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Info.png Resources/Medicine/Info.png
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Splash.png Resources/Medicine/Splash.png
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/notes_tab.png Resources/icons/notes_tab.png
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/search_tab.png Resources/icons/search_tab.png
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/remedy_tab.png Resources/icons/remedy_tab.png
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Default.png Resources/Medicine/Default.png
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/info_tab.png Resources/icons/info_tab.png
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/faq_tab.png Resources/icons/faq_tab.png
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/iTunesArtWork iTunesArtWork
+cCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/MainWindow-iPad.xib
+cCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/ChampViewController-iPad.xib
+cCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemSearchViewController-iPad.xib
+cCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemTableCustomCell-iPad.xib
+cCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemNotesListViewController-iPad.xib
+cCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemNotesViewController-iPad.xib
+cCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemWebViewController-iPad.xib
+cCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemInfoViewController-iPad.xib
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Info-iPad.png Resources/Medicine/Info-iPad.png
+cCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemSplashViewController-iPad.xib
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Default-iPad.png Resources/Medicine/Default-iPad.png
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Splash-iPad.png Resources/Medicine/Splash-iPad.png
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Icon.png Resources/Medicine/Icon.png
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Icon-72.png Resources/Medicine/Icon-72.png
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Icon-Small-50.png Resources/Medicine/Icon-Small-50.png
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Icon-Small.png Resources/Medicine/Icon-Small.png
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Icon-Small@2x.png Resources/Medicine/Icon-Small@2x.png
+cCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Icon@2x.png Resources/Medicine/Icon@2x.png
+cProcessPCH /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch.gch SampleStore_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/main.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemAppController.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemAppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemTableCustomCell.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemWebViewController.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemWebViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemSearchViewController.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSearchViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemViewController.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/ChampViewController.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/ChampViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/DataBaseManager.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/DataBaseManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemSplashViewController.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSplashViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemNotesViewController.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/JMSBDBMgrWrapper.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/JMSBDBMgrWrapper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/SampleStoreAppDelegate.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/SampleStoreAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemUtils.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemUtils.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemNotesListViewController.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemDBMgrNotes.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemDBMgrNotes.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemTableCommonCell.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCommonCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemTableCustomNoteCell.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomNoteCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemInfoViewController.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemInfoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/iMateriaMedica normal i386
+cGenerateDSYMFile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app.dSYM /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/iMateriaMedica
+cTouch /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C92EEF60000000000000132
+t1284697846
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C04586B00000000000000C4
+t1275353195
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C0458E90000000000151D30
+t1275353321
+s1383728
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/sqlite3.h
+c000000004BFDF9FB0000000000041A6F
+t1274935803
+s268911
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/lib/libsqlite3.0.dylib
+c000000004BFDFA0A0000000000079480
+t1274935818
+s496768
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/ChampViewController.h
+c000000004B58505400000000000001B2
+t1264078932
+s434
+i<UIKit/UIKit.h>
+i"RemTableCustomCell.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/ChampViewController.m
+c000000004C99868D0000000000001A72
+t1285129869
+s6770
+i"ChampViewController.h"
+i"RemTableCustomCell.h"
+i"JMSBDBMgrWrapper.h"
+i"RemViewController.h"
+i"Common.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/ChampViewController.xib
+c000000004B4C821400000000000025E9
+t1263305236
+s9705
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/Common.h
+c000000004B6933C20000000000000C9C
+t1265185730
+s3228
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/DataBaseManager.h
+c0000000049DB0370000000000000036D
+t1239090032
+s877
+i<UIKit/UIKit.h>
+i<sqlite3.h>
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/DataBaseManager.m
+c000000004AEAFA900000000000002397
+t1256913552
+s9111
+i"DataBaseManager.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/Delegates.h
+c000000004B3DEE10000000000000017A
+t1262349840
+s378
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/JMSBDBMgrWrapper.h
+c000000004CA4AE510000000000000223
+t1285860945
+s547
+i<Foundation/Foundation.h>
+i"DataBaseManager.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/JMSBDBMgrWrapper.m
+c000000004B67D5FA0000000000000F41
+t1265096186
+s3905
+i"JMSBDBMgrWrapper.h"
+i"RemUtils.h"
+i"Common.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemAppController.h
+c000000004B4499BA0000000000000354
+t1262787002
+s852
+i<Foundation/Foundation.h>
+i"RemSplashViewController.h"
+i"RemWebViewController.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemAppController.m
+c000000004CA22ABF0000000000001E2B
+t1285696191
+s7723
+i"RemAppController.h"
+i"ChampViewController.h"
+i"RemViewController.h"
+i"ChampViewController.h"
+i"RemNotesListViewController.h"
+i"RemSearchViewController.h"
+i"RemInfoViewController.h"
+i<QuartzCore/QuartzCore.h>
+i"Common.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemDBMgrNotes.h
+c000000004B3E134400000000000002C5
+t1262359364
+s709
+i<Foundation/Foundation.h>
+i"DataBaseManager.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemDBMgrNotes.m
+c000000004B501896000000000000115E
+t1263540374
+s4446
+i"RemDBMgrNotes.h"
+i"RemUtils.h"
+i"Common.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemInfoViewController.h
+c000000004B44820400000000000000EC
+t1262780932
+s236
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemInfoViewController.m
+c000000004C978C2300000000000005D2
+t1285000227
+s1490
+i"RemInfoViewController.h"
+i"Common.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemInfoViewController.xib
+c000000004B583B9C0000000000001BFC
+t1264073628
+s7164
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesListViewController.h
+c000000004C97A24100000000000001E2
+t1285005889
+s482
+i<UIKit/UIKit.h>
+i"Delegates.h"
+i"RemTableCommonCell.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesListViewController.m
+c000000004C97A2210000000000002347
+t1285005857
+s9031
+i"RemNotesListViewController.h"
+i"Common.h"
+i"RemDBMgrNotes.h"
+i"RemNotesViewController.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesListViewController.xib
+c000000004C979B330000000000003404
+t1285004083
+s13316
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesViewController.h
+c000000004C979EB9000000000000030C
+t1285004985
+s780
+i<UIKit/UIKit.h>
+i"Delegates.h"
+i"RemTableCustomNoteCell.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesViewController.m
+c000000004C979F1A00000000000014E8
+t1285005082
+s5352
+i"RemNotesViewController.h"
+i"Common.h"
+i"RemDBMgrNotes.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesViewController.xib
+c000000004C979E0C0000000000003D88
+t1285004812
+s15752
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSearchViewController.h
+c000000004B58445C00000000000001D7
+t1264075868
+s471
+i<UIKit/UIKit.h>
+i"RemTableCommonCell.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSearchViewController.m
+c000000004C9794FA00000000000012F6
+t1285002490
+s4854
+i"RemSearchViewController.h"
+i"Common.h"
+i"JMSBDBMgrWrapper.h"
+i"RemViewController.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSearchViewController.xib
+c000000004C978E870000000000003DC5
+t1285000839
+s15813
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSplashViewController.h
+c000000004B05600400000000000000EC
+t1258643460
+s236
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSplashViewController.m
+c000000004CA226E40000000000000577
+t1285695204
+s1399
+i"RemSplashViewController.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSplashViewController.xib
+c000000004B449D200000000000001C45
+t1262787872
+s7237
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCommonCell.h
+c000000004B3C84D60000000000000135
+t1262257366
+s309
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCommonCell.m
+c000000004CA0C847000000000000012C
+t1285605447
+s300
+i"RemTableCommonCell.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCommonCell.xib
+c000000004B583C680000000000002747
+t1264073832
+s10055
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomCell.h
+c000000004B62ED6C0000000000000196
+t1264774508
+s406
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomCell.m
+c000000004CA0C7FB000000000000014B
+t1285605371
+s331
+i"RemTableCustomCell.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomCell.xib
+c000000004B583BAE0000000000002C73
+t1264073646
+s11379
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomNoteCell.h
+c000000004B3DA3F80000000000000145
+t1262330872
+s325
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomNoteCell.m
+c000000004CA0C8080000000000000138
+t1285605384
+s312
+i"RemTableCustomNoteCell.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomNoteCell.xib
+c000000004B583BA2000000000000299D
+t1264073634
+s10653
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemUtils.h
+c000000004B38A59A0000000000000182
+t1262003610
+s386
+i<Foundation/Foundation.h>
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemUtils.m
+c000000004B41FBB200000000000005BE
+t1262615474
+s1470
+i"RemUtils.h"
+i"Common.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemViewController.h
+c000000004B5D3F6000000000000002A7
+t1264402272
+s679
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemViewController.m
+c000000004B6934A00000000000004CFC
+t1265185952
+s19708
+i"RemViewController.h"
+i"JMSBDBMgrWrapper.h"
+i"Common.h"
+i"RemUtils.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemViewController.xib
+c000000004B06336C0000000000001F52
+t1258697580
+s8018
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemWebViewController.h
+c000000004C97A3070000000000000163
+t1285006087
+s355
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemWebViewController.m
+c000000004CA0C73800000000000007FF
+t1285605176
+s2047
+i"RemWebViewController.h"
+i"Common.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemWebViewController.xib
+c000000004B4B14020000000000001E42
+t1263211522
+s7746
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/SampleStoreAppDelegate.h
+c000000004B30E46C000000000000014D
+t1261495404
+s333
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/SampleStoreAppDelegate.m
+c000000004B30E7A0000000000000027E
+t1261496224
+s638
+i"SampleStoreAppDelegate.h"
+i"RemAppController.h"
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/MainWindow.xib
+c000000004B30E46C0000000000001F2E
+t1261495404
+s7982
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/ChampViewController-iPad.xib
+c000000004C979CD1000000000000319B
+t1285004497
+s12699
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/MainWindow-iPad.xib
+c000000004C978C0B0000000000002403
+t1285000203
+s9219
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemInfoViewController-iPad.xib
+c000000004C9987490000000000002263
+t1285130057
+s8803
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemNotesListViewController-iPad.xib
+c000000004C979C3C0000000000002ED6
+t1285004348
+s11990
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemNotesViewController-iPad.xib
+c000000004CA21B3F000000000000693C
+t1285692223
+s26940
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemSearchViewController-iPad.xib
+c000000004C97942B0000000000003EDB
+t1285002283
+s16091
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemSplashViewController-iPad.xib
+c000000004CA227990000000000004557
+t1285695385
+s17751
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemTableCustomCell-iPad.xib
+c000000004C979D9300000000000037EF
+t1285004691
+s14319
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemWebViewController-iPad.xib
+c000000004C97A5A600000000000024DC
+t1285006758
+s9436
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/FAQ.htm
+c000000004C97A55D00000000000044D8
+t1285006685
+s17624
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Default-iPad.png
+c000000004CA22169000000000001F828
+t1285693801
+s129064
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Default.png
+c000000004CA221800000000000003922
+t1285693824
+s14626
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Icon-72.png
+c000000004CA223860000000000002391
+t1285694342
+s9105
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Icon-Small-50.png
+c000000004CA224270000000000001AF4
+t1285694503
+s6900
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Icon-Small.png
+c000000004CA224020000000000001162
+t1285694466
+s4450
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Icon-Small@2x.png
+c000000004CA224150000000000001C26
+t1285694485
+s7206
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Icon.png
+c000000004B68D2700000000000001769
+t1265160816
+s5993
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Icon@2x.png
+c000000004CA223A50000000000003AE5
+t1285694373
+s15077
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Info-iPad.png
+c000000004CA229A300000000000340C8
+t1285695907
+s213192
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Info.png
+c000000004CA22010000000000000674C
+t1285693456
+s26444
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Splash-iPad.png
+c000000004CA22744000000000001F884
+t1285695300
+s129156
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Splash.png
+c000000004CA2257B000000000000833B
+t1285694843
+s33595
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Message.htm
+c000000004B4D59D80000000000000190
+t1263360472
+s400
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Notes.sqlite
+c000000004B4D65D20000000000000C00
+t1263363538
+s3072
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/TableCellArrow.png
+c000000004A8CE3000000000000000144
+t1250747136
+s324
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/icons/faq_tab.png
+c000000004B4C5A320000000000000572
+t1263295026
+s1394
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/icons/info_tab.png
+c000000004B4C5A360000000000000538
+t1263295030
+s1336
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/icons/notes_tab.png
+c000000004B48FBC8000000000000107D
+t1263074248
+s4221
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/icons/remedy_tab.png
+c000000004B48FA0A0000000000000F4F
+t1263073802
+s3919
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/icons/search_tab.png
+c000000004B48F69E0000000000000FF4
+t1263072926
+s4084
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/medica.sqlite
+c000000004CA0CB26000000000015C800
+t1285606182
+s1427456
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/table_bottom.png
+c000000004A8CE3000000000000000C3B
+t1250747136
+s3131
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/table_middle.png
+c000000004A8CE3000000000000000B97
+t1250747136
+s2967
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/table_top.png
+c000000004A8CE3000000000000000C4B
+t1250747136
+s3147
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/tablecellSinglerow.png
+c000000004A8CE3000000000000000CCA
+t1250747136
+s3274
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/SampleStore_Prefix.pch
+c000000004B30E46C00000000000000BF
+t1261495404
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app
+t1287512729
+s1802
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app.dSYM
+t1287512729
+s102
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/ChampViewController-iPad.nib
+t1287512725
+s1870
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/ChampViewController.nib
+t1287512721
+s1879
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/Default-iPad.png
+t1287512726
+s129064
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/Default.png
+t1287512724
+s14626
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/FAQ.htm
+t1287512723
+s17624
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/Icon-72.png
+t1287512726
+s9105
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/Icon-Small-50.png
+t1287512726
+s6900
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/Icon-Small.png
+t1287512726
+s4450
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/Icon-Small@2x.png
+t1287512726
+s7206
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/Icon.png
+t1287512726
+s5993
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/Icon@2x.png
+t1287512726
+s15077
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/Info-iPad.png
+t1287512726
+s213192
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/Info.plist
+t1287512721
+s991
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/Info.png
+t1287512724
+s26444
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/MainWindow-iPad.nib
+t1287512725
+s1536
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/MainWindow.nib
+t1287512721
+s1504
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/Message.htm
+t1287512723
+s400
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/Notes.sqlite
+t1287512723
+s3072
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/PkgInfo
+t1287512721
+s8
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemInfoViewController-iPad.nib
+t1287512726
+s1789
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemInfoViewController.nib
+t1287512724
+s1782
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemNotesListViewController-iPad.nib
+t1287512725
+s1803
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemNotesListViewController.nib
+t1287512723
+s1914
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemNotesViewController-iPad.nib
+t1287512726
+s3069
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemNotesViewController.nib
+t1287512723
+s2607
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemSearchViewController-iPad.nib
+t1287512725
+s3228
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemSearchViewController.nib
+t1287512723
+s3272
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemSplashViewController-iPad.nib
+t1287512727
+s1793
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemSplashViewController.nib
+t1287512722
+s1784
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemTableCommonCell.nib
+t1287512723
+s3027
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemTableCustomCell-iPad.nib
+t1287512725
+s3375
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemTableCustomCell.nib
+t1287512722
+s3373
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemTableCustomNoteCell.nib
+t1287512724
+s3400
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemViewController.nib
+t1287512722
+s1746
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemWebViewController-iPad.nib
+t1287512726
+s1680
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemWebViewController.nib
+t1287512722
+s1678
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/Splash-iPad.png
+t1287512726
+s129156
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/Splash.png
+t1287512724
+s33595
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/TableCellArrow.png
+t1287512723
+s324
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/faq_tab.png
+t1287512724
+s1394
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/iMateriaMedica
+t1287512729
+s129164
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/iTunesArtWork
+t1287512724
+s102331
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/info_tab.png
+t1287512724
+s1336
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/medica.sqlite
+t1287512723
+s1427456
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/notes_tab.png
+t1287512724
+s4221
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/remedy_tab.png
+t1287512724
+s3919
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/search_tab.png
+t1287512724
+s4084
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/table_bottom.png
+t1287512723
+s3131
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/table_middle.png
+t1287512723
+s2967
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/table_top.png
+t1287512723
+s3147
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/tablecellSinglerow.png
+t1287512723
+s3274
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/ChampViewController.o
+t1287512728
+s54140
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/DataBaseManager.o
+t1287512728
+s29840
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/JMSBDBMgrWrapper.o
+t1287512728
+s19724
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemAppController.o
+t1287512727
+s63256
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemDBMgrNotes.o
+t1287512728
+s20984
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemInfoViewController.o
+t1287512729
+s36076
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemNotesListViewController.o
+t1287512728
+s64448
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemNotesViewController.o
+t1287512728
+s59704
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemSearchViewController.o
+t1287512728
+s49008
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemSplashViewController.o
+t1287512728
+s35784
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemTableCommonCell.o
+t1287512728
+s34924
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemTableCustomCell.o
+t1287512727
+s36152
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemTableCustomNoteCell.o
+t1287512728
+s39104
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemUtils.o
+t1287512728
+s17600
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemViewController.o
+t1287512728
+s79308
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemWebViewController.o
+t1287512728
+s39540
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/SampleStoreAppDelegate.o
+t1287512728
+s47848
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/iMateriaMedica.LinkFileList
+c000000004CBDE2910000000000000A8B
+t1287512721
+s2699
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/main.o
+t1287512727
+s6332
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/iTunesArtWork
+c000000004B68D2A00000000000018FBB
+t1265160864
+s102331
+
+N/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/main.m
+c000000004B30E46C0000000000000167
+t1261495404
+s359
+i<UIKit/UIKit.h>
+
+N/var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch.gch
+t1287512727
+s15232016
+
+NSampleStore-Info.plist
+c000000004CAC05D20000000000000639
+t1286342098
+s1593
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies309205521#309205521#0(0"0(0#1#0"8621895744#0"0#
+
+CCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/ChampViewController.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/ChampViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309205528.060724
+e309205528.188126
+r1
+xCompileC
+xbuild/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/ChampViewController.o
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/ChampViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/ChampViewController.m309205528#309205528#0(0"0(0#0#82"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/ChampViewController.m8616970528#2129"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-generated-files.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-project-headers.hmap -F/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch -c /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/ChampViewController.m -o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/ChampViewController.o0#
+
+CCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/DataBaseManager.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/DataBaseManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309205528.188227
+e309205528.362150
+r1
+xCompileC
+xbuild/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/DataBaseManager.o
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/DataBaseManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/DataBaseManager.m309205528#309205528#0(0"0(0#0#78"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/DataBaseManager.m8624722944#2121"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-generated-files.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-project-headers.hmap -F/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch -c /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/DataBaseManager.m -o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/DataBaseManager.o0#
+
+CCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/JMSBDBMgrWrapper.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/JMSBDBMgrWrapper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309205528.362257
+e309205528.467399
+r1
+xCompileC
+xbuild/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/JMSBDBMgrWrapper.o
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/JMSBDBMgrWrapper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/JMSBDBMgrWrapper.m309205528#309205528#0(0"0(0#0#79"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/JMSBDBMgrWrapper.m8618804832#2123"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-generated-files.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-project-headers.hmap -F/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch -c /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/JMSBDBMgrWrapper.m -o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/JMSBDBMgrWrapper.o0#
+
+CCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemAppController.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemAppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309205527.813369
+e309205527.938736
+r1
+xCompileC
+xbuild/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemAppController.o
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemAppController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemAppController.m309205527#309205527#0(0"0(0#0#79"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemAppController.m8619278048#2123"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-generated-files.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-project-headers.hmap -F/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch -c /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemAppController.m -o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemAppController.o0#
+
+CCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemDBMgrNotes.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemDBMgrNotes.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309205528.680131
+e309205528.815162
+r1
+xCompileC
+xbuild/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemDBMgrNotes.o
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemDBMgrNotes.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemDBMgrNotes.m309205528#309205528#0(0"0(0#0#76"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemDBMgrNotes.m8621838432#2117"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-generated-files.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-project-headers.hmap -F/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch -c /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemDBMgrNotes.m -o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemDBMgrNotes.o0#
+
+CCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemInfoViewController.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemInfoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309205528.947588
+e309205529.012459
+r1
+xCompileC
+xbuild/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemInfoViewController.o
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemInfoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemInfoViewController.m309205528#309205529#0(0"0(0#0#84"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemInfoViewController.m8617498656#2133"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-generated-files.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-project-headers.hmap -F/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch -c /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemInfoViewController.m -o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemInfoViewController.o0#
+
+CCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemNotesListViewController.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309205528.586908
+e309205528.896401
+r1
+xCompileC
+xbuild/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemNotesListViewController.o
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesListViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesListViewController.m309205528#309205528#0(0"0(0#0#89"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesListViewController.m8624248608#2143"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-generated-files.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-project-headers.hmap -F/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch -c /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesListViewController.m -o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemNotesListViewController.o0#
+
+CCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemNotesViewController.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309205528.336797
+e309205528.453807
+r1
+xCompileC
+xbuild/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemNotesViewController.o
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesViewController.m309205528#309205528#0(0"0(0#0#85"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesViewController.m8620458304#2135"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-generated-files.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-project-headers.hmap -F/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch -c /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesViewController.m -o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemNotesViewController.o0#
+
+CCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemSearchViewController.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSearchViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309205527.944944
+e309205528.060620
+r1
+xCompileC
+xbuild/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemSearchViewController.o
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSearchViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSearchViewController.m309205527#309205528#0(0"0(0#0#86"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSearchViewController.m8617395872#2137"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-generated-files.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-project-headers.hmap -F/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch -c /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSearchViewController.m -o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemSearchViewController.o0#
+
+CCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemSplashViewController.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSplashViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309205528.242673
+e309205528.336687
+r1
+xCompileC
+xbuild/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemSplashViewController.o
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSplashViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSplashViewController.m309205528#309205528#0(0"0(0#0#86"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSplashViewController.m8622656832#2137"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-generated-files.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-project-headers.hmap -F/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch -c /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSplashViewController.m -o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemSplashViewController.o0#
+
+CCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemTableCommonCell.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCommonCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309205528.815273
+e309205528.947485
+r1
+xCompileC
+xbuild/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemTableCommonCell.o
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCommonCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCommonCell.m309205528#309205528#0(0"0(0#0#81"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCommonCell.m8618674688#2127"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-generated-files.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-project-headers.hmap -F/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch -c /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCommonCell.m -o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemTableCommonCell.o0#
+
+CCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemTableCustomCell.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309205527.875191
+e309205527.944712
+r1
+xCompileC
+xbuild/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemTableCustomCell.o
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomCell.m309205527#309205527#0(0"0(0#0#81"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomCell.m8618475200#2127"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-generated-files.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-project-headers.hmap -F/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch -c /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomCell.m -o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemTableCustomCell.o0#
+
+CCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemTableCustomNoteCell.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomNoteCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309205528.896500
+e309205528.991029
+r1
+xCompileC
+xbuild/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemTableCustomNoteCell.o
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomNoteCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomNoteCell.m309205528#309205528#0(0"0(0#0#85"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomNoteCell.m8617777344#2135"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-generated-files.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-project-headers.hmap -F/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch -c /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomNoteCell.m -o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemTableCustomNoteCell.o0#
+
+CCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemUtils.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemUtils.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309205528.467502
+e309205528.680029
+r1
+xCompileC
+xbuild/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemUtils.o
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemUtils.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemUtils.m309205528#309205528#0(0"0(0#0#71"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemUtils.m8617061600#2107"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-generated-files.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-project-headers.hmap -F/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch -c /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemUtils.m -o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemUtils.o0#
+
+CCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemViewController.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309205528.031418
+e309205528.242570
+r1
+xCompileC
+xbuild/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemViewController.o
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemViewController.m309205528#309205528#0(0"0(0#0#80"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemViewController.m8617254016#2125"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-generated-files.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-project-headers.hmap -F/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch -c /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemViewController.m -o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemViewController.o0#
+
+CCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemWebViewController.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemWebViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309205527.938836
+e309205528.031299
+r1
+xCompileC
+xbuild/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemWebViewController.o
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemWebViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemWebViewController.m309205527#309205528#0(0"0(0#0#83"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemWebViewController.m8617813344#2131"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-generated-files.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-project-headers.hmap -F/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch -c /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemWebViewController.m -o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/RemWebViewController.o0#
+
+CCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/SampleStoreAppDelegate.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/SampleStoreAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309205528.453903
+e309205528.586808
+r1
+xCompileC
+xbuild/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/SampleStoreAppDelegate.o
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/SampleStoreAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/SampleStoreAppDelegate.m309205528#309205528#0(0"0(0#0#85"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/SampleStoreAppDelegate.m8617346816#2135"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-generated-files.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-project-headers.hmap -F/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch -c /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/SampleStoreAppDelegate.m -o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/SampleStoreAppDelegate.o0#
+
+CCompileC build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/main.o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309205527.811952
+e309205527.875095
+r1
+xCompileC
+xbuild/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/main.o
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/main.m309205527#309205527#0(0"0(0#0#59"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/main.m8621015552#2091"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-generated-files.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-project-headers.hmap -F/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch -c /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/main.m -o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/ChampViewController.xib
+s309205521.180224
+e309205521.630370
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/ChampViewController.xib
+lSLF07#2@42"CompileXIB Classes/ChampViewController.xib309205521#309205521#0(0"0(0#0#84"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/ChampViewController.xib8624347872#645"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/ChampViewController.nib /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/ChampViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemInfoViewController.xib
+s309205523.958702
+e309205524.474238
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemInfoViewController.xib
+lSLF07#2@44"CompileXIB Classes/RemInfoViewController.xib309205523#309205524#0(0"0(0#0#86"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemInfoViewController.xib8622901728#649"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemInfoViewController.nib /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemInfoViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesListViewController.xib
+s309205523.324991
+e309205523.786997
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesListViewController.xib
+lSLF07#2@49"CompileXIB Classes/RemNotesListViewController.xib309205523#309205523#0(0"0(0#0#91"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesListViewController.xib8620470880#659"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemNotesListViewController.nib /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesListViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesViewController.xib
+s309205522.727432
+e309205523.308996
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesViewController.xib
+lSLF07#2@45"CompileXIB Classes/RemNotesViewController.xib309205522#309205523#0(0"0(0#0#87"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesViewController.xib8623369856#651"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemNotesViewController.nib /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemNotesViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSearchViewController.xib
+s309205522.851643
+e309205523.444980
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSearchViewController.xib
+lSLF07#2@46"CompileXIB Classes/RemSearchViewController.xib309205522#309205523#0(0"0(0#0#88"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSearchViewController.xib8622856864#653"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemSearchViewController.nib /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSearchViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSplashViewController.xib
+s309205522.073567
+e309205522.727212
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSplashViewController.xib
+lSLF07#2@46"CompileXIB Classes/RemSplashViewController.xib309205522#309205522#0(0"0(0#0#88"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSplashViewController.xib8609614048#653"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemSplashViewController.nib /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemSplashViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCommonCell.xib
+s309205523.446901
+e309205523.958612
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCommonCell.xib
+lSLF07#2@41"CompileXIB Classes/RemTableCommonCell.xib309205523#309205523#0(0"0(0#0#83"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCommonCell.xib8618694464#643"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemTableCommonCell.nib /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCommonCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomCell.xib
+s309205522.228309
+e309205522.851555
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomCell.xib
+lSLF07#2@41"CompileXIB Classes/RemTableCustomCell.xib309205522#309205522#0(0"0(0#0#83"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomCell.xib8624231008#643"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemTableCustomCell.nib /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomNoteCell.xib
+s309205523.789278
+e309205524.314114
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomNoteCell.xib
+lSLF07#2@45"CompileXIB Classes/RemTableCustomNoteCell.xib309205523#309205524#0(0"0(0#0#87"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomNoteCell.xib8618136864#651"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemTableCustomNoteCell.nib /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemTableCustomNoteCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemViewController.xib
+s309205521.630484
+e309205522.073455
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemViewController.xib
+lSLF07#2@40"CompileXIB Classes/RemViewController.xib309205521#309205522#0(0"0(0#0#82"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemViewController.xib8615302880#641"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemViewController.nib /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemWebViewController.xib
+s309205521.587072
+e309205522.228221
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemWebViewController.xib
+lSLF07#2@43"CompileXIB Classes/RemWebViewController.xib309205521#309205522#0(0"0(0#0#85"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemWebViewController.xib8615873472#647"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemWebViewController.nib /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Classes/RemWebViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/MainWindow.xib
+s309205521.179467
+e309205521.586982
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib309205521#309205521#0(0"0(0#0#67"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/MainWindow.xib8625693664#619"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/MainWindow.nib /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/ChampViewController-iPad.xib
+s309205524.474325
+e309205525.264449
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/ChampViewController-iPad.xib
+lSLF07#2@54"CompileXIB Resources-iPad/ChampViewController-iPad.xib309205524#309205525#0(0"0(0#0#96"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/ChampViewController-iPad.xib8624748128#662"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/ChampViewController-iPad.nib /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/ChampViewController-iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/MainWindow-iPad.xib
+s309205524.341834
+e309205525.079121
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/MainWindow-iPad.xib
+lSLF07#2@45"CompileXIB Resources-iPad/MainWindow-iPad.xib309205524#309205525#0(0"0(0#0#87"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/MainWindow-iPad.xib8624178144#644"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/MainWindow-iPad.nib /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/MainWindow-iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemInfoViewController-iPad.xib
+s309205526.214384
+e309205526.687618
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemInfoViewController-iPad.xib
+lSLF07#2@56"CompileXIB Resources-iPad/RemInfoViewController-iPad.xib309205526#309205526#0(0"0(0#0#98"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemInfoViewController-iPad.xib8620933824#666"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemInfoViewController-iPad.nib /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemInfoViewController-iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemNotesListViewController-iPad.xib
+s309205525.619648
+e309205526.008394
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemNotesListViewController-iPad.xib
+lSLF07#2@61"CompileXIB Resources-iPad/RemNotesListViewController-iPad.xib309205525#309205526#0(0"0(0#0#103"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemNotesListViewController-iPad.xib8624835296#676"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemNotesListViewController-iPad.nib /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemNotesListViewController-iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemNotesViewController-iPad.xib
+s309205525.733616
+e309205526.214124
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemNotesViewController-iPad.xib
+lSLF07#2@57"CompileXIB Resources-iPad/RemNotesViewController-iPad.xib309205525#309205526#0(0"0(0#0#99"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemNotesViewController-iPad.xib8623368320#668"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemNotesViewController-iPad.nib /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemNotesViewController-iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemSearchViewController-iPad.xib
+s309205525.079214
+e309205525.619549
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemSearchViewController-iPad.xib
+lSLF07#2@58"CompileXIB Resources-iPad/RemSearchViewController-iPad.xib309205525#309205525#0(0"0(0#0#100"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemSearchViewController-iPad.xib8624245792#670"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemSearchViewController-iPad.nib /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemSearchViewController-iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemSplashViewController-iPad.xib
+s309205526.523183
+e309205527.047499
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemSplashViewController-iPad.xib
+lSLF07#2@58"CompileXIB Resources-iPad/RemSplashViewController-iPad.xib309205526#309205527#0(0"0(0#0#100"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemSplashViewController-iPad.xib8619084608#670"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemSplashViewController-iPad.nib /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemSplashViewController-iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemTableCustomCell-iPad.xib
+s309205525.264539
+e309205525.733522
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemTableCustomCell-iPad.xib
+lSLF07#2@53"CompileXIB Resources-iPad/RemTableCustomCell-iPad.xib309205525#309205525#0(0"0(0#0#95"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemTableCustomCell-iPad.xib8615576224#660"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemTableCustomCell-iPad.nib /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemTableCustomCell-iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemWebViewController-iPad.xib
+s309205526.008591
+e309205526.521965
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemWebViewController-iPad.xib
+lSLF07#2@55"CompileXIB Resources-iPad/RemWebViewController-iPad.xib309205526#309205526#0(0"0(0#0#97"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemWebViewController-iPad.xib8622046304#664"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/RemWebViewController-iPad.nib /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources-iPad/RemWebViewController-iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Default-iPad.png Resources/Medicine/Default-iPad.png
+s309205526.687708
+e309205526.734660
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/Default-iPad.png
+xResources/Medicine/Default-iPad.png
+lSLF07#2@40"Copy Resources/Medicine/Default-iPad.png309205526#309205526#0(0"0(0#0#88"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Default-iPad.png8618426880#528"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Default-iPad.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Default.png Resources/Medicine/Default.png
+s309205524.317341
+e309205524.362364
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/Default.png
+xResources/Medicine/Default.png
+lSLF07#2@35"Copy Resources/Medicine/Default.png309205524#309205524#0(0"0(0#0#83"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Default.png8619062528#523"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Default.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/FAQ.htm Resources/FAQ.htm
+s309205523.787088
+e309205523.813132
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/FAQ.htm
+xResources/FAQ.htm
+lSLF07#2@22"Copy Resources/FAQ.htm309205523#309205523#0(0"0(0#0#70"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/FAQ.htm8618215040#510"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/FAQ.htm /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Icon-72.png Resources/Medicine/Icon-72.png
+s309205526.692951
+e309205526.719879
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/Icon-72.png
+xResources/Medicine/Icon-72.png
+lSLF07#2@35"Copy Resources/Medicine/Icon-72.png309205526#309205526#0(0"0(0#0#83"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Icon-72.png8618018496#523"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Icon-72.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Icon-Small-50.png Resources/Medicine/Icon-Small-50.png
+s309205526.697193
+e309205526.720011
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/Icon-Small-50.png
+xResources/Medicine/Icon-Small-50.png
+lSLF07#2@41"Copy Resources/Medicine/Icon-Small-50.png309205526#309205526#0(0"0(0#0#89"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Icon-Small-50.png8617857600#529"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Icon-Small-50.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Icon-Small.png Resources/Medicine/Icon-Small.png
+s309205526.701207
+e309205526.731347
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/Icon-Small.png
+xResources/Medicine/Icon-Small.png
+lSLF07#2@38"Copy Resources/Medicine/Icon-Small.png309205526#309205526#0(0"0(0#0#86"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Icon-Small.png8617753760#526"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Icon-Small.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Icon-Small@2x.png Resources/Medicine/Icon-Small@2x.png
+s309205526.704958
+e309205526.731486
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/Icon-Small@2x.png
+xResources/Medicine/Icon-Small@2x.png
+lSLF07#2@41"Copy Resources/Medicine/Icon-Small@2x.png309205526#309205526#0(0"0(0#0#89"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Icon-Small@2x.png8617687360#529"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Icon-Small@2x.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Icon.png Resources/Medicine/Icon.png
+s309205526.691215
+e309205526.731074
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/Icon.png
+xResources/Medicine/Icon.png
+lSLF07#2@32"Copy Resources/Medicine/Icon.png309205526#309205526#0(0"0(0#0#80"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Icon.png8603512320#520"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Icon.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Icon@2x.png Resources/Medicine/Icon@2x.png
+s309205526.717652
+e309205526.731731
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/Icon@2x.png
+xResources/Medicine/Icon@2x.png
+lSLF07#2@35"Copy Resources/Medicine/Icon@2x.png309205526#309205526#0(0"0(0#0#83"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Icon@2x.png8617554944#523"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Icon@2x.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Info-iPad.png Resources/Medicine/Info-iPad.png
+s309205526.522121
+e309205526.554628
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/Info-iPad.png
+xResources/Medicine/Info-iPad.png
+lSLF07#2@37"Copy Resources/Medicine/Info-iPad.png309205526#309205526#0(0"0(0#0#85"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Info-iPad.png8620511424#525"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Info-iPad.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Info.png Resources/Medicine/Info.png
+s309205524.314313
+e309205524.341744
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/Info.png
+xResources/Medicine/Info.png
+lSLF07#2@32"Copy Resources/Medicine/Info.png309205524#309205524#0(0"0(0#0#80"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Info.png8622112768#520"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Info.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Message.htm Resources/Message.htm
+s309205523.312977
+e309205523.356603
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/Message.htm
+xResources/Message.htm
+lSLF07#2@26"Copy Resources/Message.htm309205523#309205523#0(0"0(0#0#74"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Message.htm8621751136#514"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Message.htm /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Notes.sqlite Resources/Notes.sqlite
+s309205523.445080
+e309205523.450757
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/Notes.sqlite
+xResources/Notes.sqlite
+lSLF07#2@27"Copy Resources/Notes.sqlite309205523#309205523#0(0"0(0#0#75"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Notes.sqlite8618911424#515"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Notes.sqlite /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Splash-iPad.png Resources/Medicine/Splash-iPad.png
+s309205526.689492
+e309205526.734428
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/Splash-iPad.png
+xResources/Medicine/Splash-iPad.png
+lSLF07#2@39"Copy Resources/Medicine/Splash-iPad.png309205526#309205526#0(0"0(0#0#87"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Splash-iPad.png8618150112#527"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Splash-iPad.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/Splash.png Resources/Medicine/Splash.png
+s309205524.315051
+e309205524.397937
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/Splash.png
+xResources/Medicine/Splash.png
+lSLF07#2@34"Copy Resources/Medicine/Splash.png309205524#309205524#0(0"0(0#0#82"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Splash.png8621833984#522"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/Medicine/Splash.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/TableCellArrow.png Resources/TableCellArrow.png
+s309205523.323566
+e309205523.358099
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/TableCellArrow.png
+xResources/TableCellArrow.png
+lSLF07#2@33"Copy Resources/TableCellArrow.png309205523#309205523#0(0"0(0#0#81"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/TableCellArrow.png8620631424#521"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/TableCellArrow.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/faq_tab.png Resources/icons/faq_tab.png
+s309205524.318464
+e309205524.377914
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/faq_tab.png
+xResources/icons/faq_tab.png
+lSLF07#2@32"Copy Resources/icons/faq_tab.png309205524#309205524#0(0"0(0#0#80"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/icons/faq_tab.png8618467392#520"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/icons/faq_tab.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/iTunesArtWork iTunesArtWork
+s309205524.319015
+e309205524.404171
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/iTunesArtWork
+xiTunesArtWork
+lSLF07#2@18"Copy iTunesArtWork309205524#309205524#0(0"0(0#0#66"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/iTunesArtWork8618303104#506"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/iTunesArtWork /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/info_tab.png Resources/icons/info_tab.png
+s309205524.317901
+e309205524.378818
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/info_tab.png
+xResources/icons/info_tab.png
+lSLF07#2@33"Copy Resources/icons/info_tab.png309205524#309205524#0(0"0(0#0#81"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/icons/info_tab.png8618812512#521"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/icons/info_tab.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/medica.sqlite Resources/medica.sqlite
+s309205523.311522
+e309205523.394123
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/medica.sqlite
+xResources/medica.sqlite
+lSLF07#2@28"Copy Resources/medica.sqlite309205523#309205523#0(0"0(0#0#76"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/medica.sqlite8621926304#516"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/medica.sqlite /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/notes_tab.png Resources/icons/notes_tab.png
+s309205524.315654
+e309205524.378047
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/notes_tab.png
+xResources/icons/notes_tab.png
+lSLF07#2@34"Copy Resources/icons/notes_tab.png309205524#309205524#0(0"0(0#0#82"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/icons/notes_tab.png8621028896#522"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/icons/notes_tab.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/remedy_tab.png Resources/icons/remedy_tab.png
+s309205524.316799
+e309205524.378978
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/remedy_tab.png
+xResources/icons/remedy_tab.png
+lSLF07#2@35"Copy Resources/icons/remedy_tab.png309205524#309205524#0(0"0(0#0#83"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/icons/remedy_tab.png8620521152#523"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/icons/remedy_tab.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/search_tab.png Resources/icons/search_tab.png
+s309205524.316240
+e309205524.377780
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/search_tab.png
+xResources/icons/search_tab.png
+lSLF07#2@35"Copy Resources/icons/search_tab.png309205524#309205524#0(0"0(0#0#83"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/icons/search_tab.png8620748864#523"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/icons/search_tab.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/table_bottom.png Resources/table_bottom.png
+s309205523.316369
+e309205523.356728
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/table_bottom.png
+xResources/table_bottom.png
+lSLF07#2@31"Copy Resources/table_bottom.png309205523#309205523#0(0"0(0#0#79"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/table_bottom.png8621053248#519"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/table_bottom.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/table_middle.png Resources/table_middle.png
+s309205523.309883
+e309205523.341367
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/table_middle.png
+xResources/table_middle.png
+lSLF07#2@31"Copy Resources/table_middle.png309205523#309205523#0(0"0(0#0#79"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/table_middle.png8622199680#519"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/table_middle.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/table_top.png Resources/table_top.png
+s309205523.317238
+e309205523.341491
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/table_top.png
+xResources/table_top.png
+lSLF07#2@28"Copy Resources/table_top.png309205523#309205523#0(0"0(0#0#76"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/table_top.png8620921536#516"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/table_top.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CCpResource build/Debug-iphonesimulator/iMateriaMedica.app/tablecellSinglerow.png Resources/tablecellSinglerow.png
+s309205523.318035
+e309205523.356834
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iMateriaMedica.app/tablecellSinglerow.png
+xResources/tablecellSinglerow.png
+lSLF07#2@37"Copy Resources/tablecellSinglerow.png309205523#309205523#0(0"0(0#0#85"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/tablecellSinglerow.png8620741440#525"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/Resources/tablecellSinglerow.png /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+
+CGenerateDSYMFile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app.dSYM /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/iMateriaMedica
+s309205529.064027
+e309205529.113906
+r1
+xGenerateDSYMFile
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app.dSYM
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/iMateriaMedica
+lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/iMateriaMedica.app.dSYM build/Debug-iphonesimulator/iMateriaMedica.app/iMateriaMedica309205529#309205529#0(0"0(0#0#114"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/iMateriaMedica8615052544#446"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/iMateriaMedica -o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app.dSYM0#
+
+CLd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/iMateriaMedica normal i386
+s309205529.012713
+e309205529.063929
+r1
+xLd
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/iMateriaMedica
+xnormal
+xi386
+lSLF07#2@119"Link /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/iMateriaMedica309205529#309205529#0(0"0(0#0#0"8617152576#1025"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator -F/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator -filelist /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/Objects-normal/i386/iMateriaMedica.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -lsqlite3.0 -o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/iMateriaMedica0#
+
+CProcessInfoPlistFile /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/Info.plist SampleStore-Info.plist
+s309205521.158784
+e309205521.179365
+r1
+xProcessInfoPlistFile
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/Info.plist
+xSampleStore-Info.plist
+lSLF07#2@30"Process SampleStore-Info.plist309205521#309205521#0(0"0(0#0#75"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/SampleStore-Info.plist32088581144313952#539"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SampleStore-Info.plist -genpkginfo /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app/Info.plist0#
+
+CProcessPCH /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch.gch SampleStore_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s309205527.047622
+e309205527.811726
+r1
+xProcessPCH
+x/var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch.gch
+xSampleStore_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile SampleStore_Prefix.pch309205527#309205527#0(0"0(0#0#75"/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/SampleStore_Prefix.pch8624355232#1973"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-generated-files.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/iMateriaMedica-project-headers.hmap -F/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/SampleStore.build/Debug-iphonesimulator/iMM.build/DerivedSources -c /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/SampleStore_Prefix.pch -o /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SampleStore_Prefix-dbybpdeonuwrhaeeionwygsaooeu/SampleStore_Prefix.pch.gch0#
+
+CTouch /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app
+s309205529.114004
+e309205529.206865
+r1
+xTouch
+x/Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app
+lSLF07#2@105"Touch /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app309205529#309205529#0(0"0(0#0#0"8618606080#313"    cd /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/santhoshjoseph/WIP/mys2MM2.0/code/SampleStore/build/Debug-iphonesimulator/iMateriaMedica.app0#
+

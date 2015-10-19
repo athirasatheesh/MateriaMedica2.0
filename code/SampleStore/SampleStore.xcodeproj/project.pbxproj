@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03072F571249BE0B00B9CDBC /* Info-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 03072F561249BE0B00B9CDBC /* Info-iPad.png */; };
+		037682C712525DC80037A077 /* RemSplashViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 037682C612525DC80037A077 /* RemSplashViewController-iPad.xib */; };
+		037682CE12525E8F0037A077 /* Default-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 037682CD12525E8F0037A077 /* Default-iPad.png */; };
+		037682D012525EE70037A077 /* Splash-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 037682CF12525EE70037A077 /* Splash-iPad.png */; };
+		038D1C481254E33C008DF356 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 038D1C471254E33C008DF356 /* Icon.png */; };
+		038D1C501254E518008DF356 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 038D1C4B1254E518008DF356 /* Icon-72.png */; };
+		038D1C511254E518008DF356 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 038D1C4C1254E518008DF356 /* Icon-Small-50.png */; };
+		038D1C521254E518008DF356 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 038D1C4D1254E518008DF356 /* Icon-Small.png */; };
+		038D1C531254E518008DF356 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 038D1C4E1254E518008DF356 /* Icon-Small@2x.png */; };
+		038D1C541254E518008DF356 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 038D1C4F1254E518008DF356 /* Icon@2x.png */; };
+		03E4D10E1247BE0B00883DC0 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E4D10D1247BE0B00883DC0 /* MainWindow-iPad.xib */; };
+		03E4D1361247C4EA00883DC0 /* ChampViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E4D1351247C4EA00883DC0 /* ChampViewController-iPad.xib */; };
+		03E4D1561247C6A800883DC0 /* RemSearchViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E4D1551247C6A800883DC0 /* RemSearchViewController-iPad.xib */; };
+		03E4D22D1247D09B00883DC0 /* RemTableCustomCell-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E4D22C1247D09B00883DC0 /* RemTableCustomCell-iPad.xib */; };
+		03E4D25C1247D30700883DC0 /* RemNotesListViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E4D25B1247D30700883DC0 /* RemNotesListViewController-iPad.xib */; };
+		03E4D2971247D58A00883DC0 /* RemNotesViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E4D2961247D58A00883DC0 /* RemNotesViewController-iPad.xib */; };
+		03E4D2EB1247DA1000883DC0 /* RemWebViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E4D2EA1247DA1000883DC0 /* RemWebViewController-iPad.xib */; };
+		03E4D32A1247DDF600883DC0 /* RemInfoViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E4D3291247DDF600883DC0 /* RemInfoViewController-iPad.xib */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		B779FD8A10F62DD1007A87FE /* notes_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = B779FD8510F62DD1007A87FE /* notes_tab.png */; };
+		B779FD8B10F62DD1007A87FE /* search_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = B779FD8610F62DD1007A87FE /* search_tab.png */; };
+		B779FD9110F62E0B007A87FE /* remedy_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = B779FD8F10F62E0B007A87FE /* remedy_tab.png */; };
+		B77AD5AE10E1177B006A2AA9 /* RemAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = B77AD59010E1177B006A2AA9 /* RemAppController.m */; };
+		B77AD5AF10E1177B006A2AA9 /* ChampViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B77AD59310E1177B006A2AA9 /* ChampViewController.xib */; };
+		B77AD5B010E1177B006A2AA9 /* RemTableCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B77AD59710E1177B006A2AA9 /* RemTableCustomCell.m */; };
+		B77AD5B110E1177B006A2AA9 /* RemWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B77AD59810E1177B006A2AA9 /* RemWebViewController.xib */; };
+		B77AD5B210E1177B006A2AA9 /* RemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B77AD59A10E1177B006A2AA9 /* RemViewController.xib */; };
+		B77AD5B310E1177B006A2AA9 /* RemWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B77AD59B10E1177B006A2AA9 /* RemWebViewController.m */; };
+		B77AD5B410E1177B006A2AA9 /* RemSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B77AD59F10E1177B006A2AA9 /* RemSplashViewController.xib */; };
+		B77AD5B510E1177B006A2AA9 /* RemTableCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B77AD5A010E1177B006A2AA9 /* RemTableCustomCell.xib */; };
+		B77AD5B610E1177B006A2AA9 /* RemSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B77AD5A110E1177B006A2AA9 /* RemSearchViewController.m */; };
+		B77AD5B710E1177B006A2AA9 /* RemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B77AD5A210E1177B006A2AA9 /* RemViewController.m */; };
+		B77AD5B810E1177B006A2AA9 /* ChampViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B77AD5A310E1177B006A2AA9 /* ChampViewController.m */; };
+		B77AD5B910E1177B006A2AA9 /* DataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B77AD5A410E1177B006A2AA9 /* DataBaseManager.m */; };
+		B77AD5BA10E1177B006A2AA9 /* RemSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B77AD5A510E1177B006A2AA9 /* RemSplashViewController.m */; };
+		B77AD5BB10E1177B006A2AA9 /* RemNotesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B77AD5A610E1177B006A2AA9 /* RemNotesViewController.xib */; };
+		B77AD5BC10E1177B006A2AA9 /* RemNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B77AD5A810E1177B006A2AA9 /* RemNotesViewController.m */; };
+		B77AD5BD10E1177B006A2AA9 /* RemSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B77AD5A910E1177B006A2AA9 /* RemSearchViewController.xib */; };
+		B77AD5BE10E1177B006A2AA9 /* JMSBDBMgrWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B77AD5AA10E1177B006A2AA9 /* JMSBDBMgrWrapper.m */; };
+		B77AD5BF10E1177B006A2AA9 /* SampleStoreAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B77AD5AC10E1177B006A2AA9 /* SampleStoreAppDelegate.m */; };
+		B77AD5D310E117AD006A2AA9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77AD5D210E117AD006A2AA9 /* QuartzCore.framework */; };
+		B77AD5DD10E117C2006A2AA9 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B77AD5DC10E117C2006A2AA9 /* libsqlite3.0.dylib */; };
+		B77AD64110E118EC006A2AA9 /* table_middle.png in Resources */ = {isa = PBXBuildFile; fileRef = B77AD61710E118EC006A2AA9 /* table_middle.png */; };
+		B77AD64410E118EC006A2AA9 /* medica.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B77AD61A10E118EC006A2AA9 /* medica.sqlite */; };
+		B77AD69A10E11ADD006A2AA9 /* Message.htm in Resources */ = {isa = PBXBuildFile; fileRef = B77AD69910E11ADD006A2AA9 /* Message.htm */; };
+		B77BD27F10EDD5A2006EC9C3 /* RemTableCustomNoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B77BD27C10EDD5A2006EC9C3 /* RemTableCustomNoteCell.m */; };
+		B77BD28010EDD5A2006EC9C3 /* RemTableCustomNoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B77BD27D10EDD5A2006EC9C3 /* RemTableCustomNoteCell.xib */; };
+		B77FFDFA10ECB5A8007E3769 /* RemTableCommonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B77FFDF810ECB5A8007E3769 /* RemTableCommonCell.xib */; };
+		B77FFDFB10ECB5A8007E3769 /* RemTableCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B77FFDF910ECB5A8007E3769 /* RemTableCommonCell.m */; };
+		B77FFEAB10ECCC99007E3769 /* FAQ.htm in Resources */ = {isa = PBXBuildFile; fileRef = B77FFEAA10ECCC99007E3769 /* FAQ.htm */; };
+		B788D6AB10E388FB00BCEE21 /* table_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = B788D6A810E388FB00BCEE21 /* table_bottom.png */; };
+		B788D6AC10E388FB00BCEE21 /* table_top.png in Resources */ = {isa = PBXBuildFile; fileRef = B788D6A910E388FB00BCEE21 /* table_top.png */; };
+		B788D6AD10E388FB00BCEE21 /* tablecellSinglerow.png in Resources */ = {isa = PBXBuildFile; fileRef = B788D6AA10E388FB00BCEE21 /* tablecellSinglerow.png */; };
+		B788D6D810E38D7B00BCEE21 /* TableCellArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B788D6D710E38D7B00BCEE21 /* TableCellArrow.png */; };
+		B792E22910E8AC330071469A /* RemUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B792E22810E8AC330071469A /* RemUtils.m */; };
+		B792E4F010E8D2940071469A /* RemNotesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B792E4EE10E8D2940071469A /* RemNotesListViewController.m */; };
+		B792E4F110E8D2940071469A /* RemNotesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B792E4EF10E8D2940071469A /* RemNotesListViewController.xib */; };
+		B792E58910E8FB8A0071469A /* RemDBMgrNotes.m in Sources */ = {isa = PBXBuildFile; fileRef = B792E58710E8FB8A0071469A /* RemDBMgrNotes.m */; };
+		B792E58E10E8FBAE0071469A /* Notes.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B792E58D10E8FBAE0071469A /* Notes.sqlite */; };
+		B798247610FC4BBE0018B6AC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B798247510FC4BBE0018B6AC /* Default.png */; };
+		B79824FF10FC51180018B6AC /* info_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = B79824FD10FC51180018B6AC /* info_tab.png */; };
+		B798250010FC51180018B6AC /* faq_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = B79824FE10FC51180018B6AC /* faq_tab.png */; };
+		B79825A110FC79480018B6AC /* iTunesArtWork in Resources */ = {isa = PBXBuildFile; fileRef = B79825A010FC79480018B6AC /* iTunesArtWork */; };
+		B7AE139310F4B274008BEEC1 /* RemInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AE139110F4B274008BEEC1 /* RemInfoViewController.m */; };
+		B7AE139410F4B274008BEEC1 /* RemInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7AE139210F4B274008BEEC1 /* RemInfoViewController.xib */; };
+		B7AE14E010F4CD89008BEEC1 /* Info.png in Resources */ = {isa = PBXBuildFile; fileRef = B7AE14DE10F4CD89008BEEC1 /* Info.png */; };
+		B7AE14E110F4CD89008BEEC1 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = B7AE14DF10F4CD89008BEEC1 /* Splash.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03072F561249BE0B00B9CDBC /* Info-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Info-iPad.png"; path = "Resources/Medicine/Info-iPad.png"; sourceTree = "<group>"; };
+		037682C612525DC80037A077 /* RemSplashViewController-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "RemSplashViewController-iPad.xib"; path = "Resources-iPad/RemSplashViewController-iPad.xib"; sourceTree = "<group>"; };
+		037682CD12525E8F0037A077 /* Default-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-iPad.png"; path = "Resources/Medicine/Default-iPad.png"; sourceTree = "<group>"; };
+		037682CF12525EE70037A077 /* Splash-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Splash-iPad.png"; path = "Resources/Medicine/Splash-iPad.png"; sourceTree = "<group>"; };
+		038D1C471254E33C008DF356 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Medicine/Icon.png; sourceTree = "<group>"; };
+		038D1C4B1254E518008DF356 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Medicine/Icon-72.png"; sourceTree = "<group>"; };
+		038D1C4C1254E518008DF356 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Resources/Medicine/Icon-Small-50.png"; sourceTree = "<group>"; };
+		038D1C4D1254E518008DF356 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Resources/Medicine/Icon-Small.png"; sourceTree = "<group>"; };
+		038D1C4E1254E518008DF356 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Resources/Medicine/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		038D1C4F1254E518008DF356 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Medicine/Icon@2x.png"; sourceTree = "<group>"; };
+		038D1C5F1254E55F008DF356 /* Ent.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Ent.plist; sourceTree = "<group>"; };
+		03E4D10D1247BE0B00883DC0 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources-iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		03E4D1351247C4EA00883DC0 /* ChampViewController-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "ChampViewController-iPad.xib"; path = "Resources-iPad/ChampViewController-iPad.xib"; sourceTree = "<group>"; };
+		03E4D1551247C6A800883DC0 /* RemSearchViewController-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "RemSearchViewController-iPad.xib"; path = "Resources-iPad/RemSearchViewController-iPad.xib"; sourceTree = "<group>"; };
+		03E4D22C1247D09B00883DC0 /* RemTableCustomCell-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "RemTableCustomCell-iPad.xib"; path = "Resources-iPad/RemTableCustomCell-iPad.xib"; sourceTree = "<group>"; };
+		03E4D25B1247D30700883DC0 /* RemNotesListViewController-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "RemNotesListViewController-iPad.xib"; path = "Resources-iPad/RemNotesListViewController-iPad.xib"; sourceTree = "<group>"; };
+		03E4D2961247D58A00883DC0 /* RemNotesViewController-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "RemNotesViewController-iPad.xib"; path = "Resources-iPad/RemNotesViewController-iPad.xib"; sourceTree = "<group>"; };
+		03E4D2EA1247DA1000883DC0 /* RemWebViewController-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "RemWebViewController-iPad.xib"; path = "Resources-iPad/RemWebViewController-iPad.xib"; sourceTree = "<group>"; };
+		03E4D3291247DDF600883DC0 /* RemInfoViewController-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "RemInfoViewController-iPad.xib"; path = "Resources-iPad/RemInfoViewController-iPad.xib"; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* iMateriaMedica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMateriaMedica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SampleStore_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleStore_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SampleStore-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SampleStore-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B779FD8510F62DD1007A87FE /* notes_tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notes_tab.png; sourceTree = "<group>"; };
+		B779FD8610F62DD1007A87FE /* search_tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_tab.png; sourceTree = "<group>"; };
+		B779FD8F10F62E0B007A87FE /* remedy_tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remedy_tab.png; sourceTree = "<group>"; };
+		B77AD59010E1177B006A2AA9 /* RemAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemAppController.m; sourceTree = "<group>"; };
+		B77AD59110E1177B006A2AA9 /* JMSBDBMgrWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSBDBMgrWrapper.h; sourceTree = "<group>"; };
+		B77AD59210E1177B006A2AA9 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		B77AD59310E1177B006A2AA9 /* ChampViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChampViewController.xib; sourceTree = "<group>"; };
+		B77AD59410E1177B006A2AA9 /* RemTableCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemTableCustomCell.h; sourceTree = "<group>"; };
+		B77AD59510E1177B006A2AA9 /* ChampViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChampViewController.h; sourceTree = "<group>"; };
+		B77AD59610E1177B006A2AA9 /* RemAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemAppController.h; sourceTree = "<group>"; };
+		B77AD59710E1177B006A2AA9 /* RemTableCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemTableCustomCell.m; sourceTree = "<group>"; };
+		B77AD59810E1177B006A2AA9 /* RemWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemWebViewController.xib; sourceTree = "<group>"; };
+		B77AD59910E1177B006A2AA9 /* RemSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemSearchViewController.h; sourceTree = "<group>"; };
+		B77AD59A10E1177B006A2AA9 /* RemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemViewController.xib; sourceTree = "<group>"; };
+		B77AD59B10E1177B006A2AA9 /* RemWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemWebViewController.m; sourceTree = "<group>"; };
+		B77AD59C10E1177B006A2AA9 /* RemWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemWebViewController.h; sourceTree = "<group>"; };
+		B77AD59D10E1177B006A2AA9 /* RemSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemSplashViewController.h; sourceTree = "<group>"; };
+		B77AD59E10E1177B006A2AA9 /* RemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemViewController.h; sourceTree = "<group>"; };
+		B77AD59F10E1177B006A2AA9 /* RemSplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemSplashViewController.xib; sourceTree = "<group>"; };
+		B77AD5A010E1177B006A2AA9 /* RemTableCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemTableCustomCell.xib; sourceTree = "<group>"; };
+		B77AD5A110E1177B006A2AA9 /* RemSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemSearchViewController.m; sourceTree = "<group>"; };
+		B77AD5A210E1177B006A2AA9 /* RemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemViewController.m; sourceTree = "<group>"; };
+		B77AD5A310E1177B006A2AA9 /* ChampViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChampViewController.m; sourceTree = "<group>"; };
+		B77AD5A410E1177B006A2AA9 /* DataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseManager.m; sourceTree = "<group>"; };
+		B77AD5A510E1177B006A2AA9 /* RemSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemSplashViewController.m; sourceTree = "<group>"; };
+		B77AD5A610E1177B006A2AA9 /* RemNotesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemNotesViewController.xib; sourceTree = "<group>"; };
+		B77AD5A710E1177B006A2AA9 /* RemNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemNotesViewController.h; sourceTree = "<group>"; };
+		B77AD5A810E1177B006A2AA9 /* RemNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemNotesViewController.m; sourceTree = "<group>"; };
+		B77AD5A910E1177B006A2AA9 /* RemSearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemSearchViewController.xib; sourceTree = "<group>"; };
+		B77AD5AA10E1177B006A2AA9 /* JMSBDBMgrWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMSBDBMgrWrapper.m; sourceTree = "<group>"; };
+		B77AD5AB10E1177B006A2AA9 /* SampleStoreAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleStoreAppDelegate.h; sourceTree = "<group>"; };
+		B77AD5AC10E1177B006A2AA9 /* SampleStoreAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleStoreAppDelegate.m; sourceTree = "<group>"; };
+		B77AD5AD10E1177B006A2AA9 /* DataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseManager.h; sourceTree = "<group>"; };
+		B77AD5D210E117AD006A2AA9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B77AD5DC10E117C2006A2AA9 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		B77AD61710E118EC006A2AA9 /* table_middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = table_middle.png; path = Resources/table_middle.png; sourceTree = "<group>"; };
+		B77AD61A10E118EC006A2AA9 /* medica.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = medica.sqlite; path = Resources/medica.sqlite; sourceTree = "<group>"; };
+		B77AD69910E11ADD006A2AA9 /* Message.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Message.htm; path = Resources/Message.htm; sourceTree = "<group>"; };
+		B77BD27C10EDD5A2006EC9C3 /* RemTableCustomNoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemTableCustomNoteCell.m; sourceTree = "<group>"; };
+		B77BD27D10EDD5A2006EC9C3 /* RemTableCustomNoteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemTableCustomNoteCell.xib; sourceTree = "<group>"; };
+		B77BD27E10EDD5A2006EC9C3 /* RemTableCustomNoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemTableCustomNoteCell.h; sourceTree = "<group>"; };
+		B77FFDF710ECB5A8007E3769 /* RemTableCommonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemTableCommonCell.h; sourceTree = "<group>"; };
+		B77FFDF810ECB5A8007E3769 /* RemTableCommonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemTableCommonCell.xib; sourceTree = "<group>"; };
+		B77FFDF910ECB5A8007E3769 /* RemTableCommonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemTableCommonCell.m; sourceTree = "<group>"; };
+		B77FFEAA10ECCC99007E3769 /* FAQ.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = FAQ.htm; path = Resources/FAQ.htm; sourceTree = "<group>"; };
+		B788D6A810E388FB00BCEE21 /* table_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = table_bottom.png; path = Resources/table_bottom.png; sourceTree = "<group>"; };
+		B788D6A910E388FB00BCEE21 /* table_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = table_top.png; path = Resources/table_top.png; sourceTree = "<group>"; };
+		B788D6AA10E388FB00BCEE21 /* tablecellSinglerow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tablecellSinglerow.png; path = Resources/tablecellSinglerow.png; sourceTree = "<group>"; };
+		B788D6D710E38D7B00BCEE21 /* TableCellArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TableCellArrow.png; path = Resources/TableCellArrow.png; sourceTree = "<group>"; };
+		B792E22710E8AC330071469A /* RemUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemUtils.h; sourceTree = "<group>"; };
+		B792E22810E8AC330071469A /* RemUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemUtils.m; sourceTree = "<group>"; };
+		B792E4ED10E8D2940071469A /* RemNotesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemNotesListViewController.h; sourceTree = "<group>"; };
+		B792E4EE10E8D2940071469A /* RemNotesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemNotesListViewController.m; sourceTree = "<group>"; };
+		B792E4EF10E8D2940071469A /* RemNotesListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemNotesListViewController.xib; sourceTree = "<group>"; };
+		B792E58710E8FB8A0071469A /* RemDBMgrNotes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemDBMgrNotes.m; sourceTree = "<group>"; };
+		B792E58810E8FB8A0071469A /* RemDBMgrNotes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemDBMgrNotes.h; sourceTree = "<group>"; };
+		B792E58D10E8FBAE0071469A /* Notes.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = Notes.sqlite; path = Resources/Notes.sqlite; sourceTree = "<group>"; };
+		B792E69F10E90B1E0071469A /* Delegates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Delegates.h; sourceTree = "<group>"; };
+		B798247510FC4BBE0018B6AC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Medicine/Default.png; sourceTree = "<group>"; };
+		B79824FD10FC51180018B6AC /* info_tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_tab.png; sourceTree = "<group>"; };
+		B79824FE10FC51180018B6AC /* faq_tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faq_tab.png; sourceTree = "<group>"; };
+		B79825A010FC79480018B6AC /* iTunesArtWork */ = {isa = PBXFileReference; lastKnownFileType = text; path = iTunesArtWork; sourceTree = "<group>"; };
+		B7AE139010F4B274008BEEC1 /* RemInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemInfoViewController.h; sourceTree = "<group>"; };
+		B7AE139110F4B274008BEEC1 /* RemInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemInfoViewController.m; sourceTree = "<group>"; };
+		B7AE139210F4B274008BEEC1 /* RemInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemInfoViewController.xib; sourceTree = "<group>"; };
+		B7AE14DE10F4CD89008BEEC1 /* Info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Info.png; sourceTree = "<group>"; };
+		B7AE14DF10F4CD89008BEEC1 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				B77AD5D310E117AD006A2AA9 /* QuartzCore.framework in Frameworks */,
+				B77AD5DD10E117C2006A2AA9 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E4D10C1247BE0B00883DC0 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				03E4D10D1247BE0B00883DC0 /* MainWindow-iPad.xib */,
+				03E4D25B1247D30700883DC0 /* RemNotesListViewController-iPad.xib */,
+				03E4D22C1247D09B00883DC0 /* RemTableCustomCell-iPad.xib */,
+				03E4D2961247D58A00883DC0 /* RemNotesViewController-iPad.xib */,
+				037682C612525DC80037A077 /* RemSplashViewController-iPad.xib */,
+				03E4D3291247DDF600883DC0 /* RemInfoViewController-iPad.xib */,
+				03072F561249BE0B00B9CDBC /* Info-iPad.png */,
+				03E4D2EA1247DA1000883DC0 /* RemWebViewController-iPad.xib */,
+				03E4D1351247C4EA00883DC0 /* ChampViewController-iPad.xib */,
+				03E4D1551247C6A800883DC0 /* RemSearchViewController-iPad.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B77BD37C10EDF621006EC9C3 /* CustomCells */,
+				B77AD59210E1177B006A2AA9 /* Common.h */,
+				B792E69F10E90B1E0071469A /* Delegates.h */,
+				B77AD59110E1177B006A2AA9 /* JMSBDBMgrWrapper.h */,
+				B77AD5AA10E1177B006A2AA9 /* JMSBDBMgrWrapper.m */,
+				B792E58710E8FB8A0071469A /* RemDBMgrNotes.m */,
+				B792E58810E8FB8A0071469A /* RemDBMgrNotes.h */,
+				B77AD5A410E1177B006A2AA9 /* DataBaseManager.m */,
+				B77AD5AD10E1177B006A2AA9 /* DataBaseManager.h */,
+				B77AD59510E1177B006A2AA9 /* ChampViewController.h */,
+				B77AD5A310E1177B006A2AA9 /* ChampViewController.m */,
+				B77AD59610E1177B006A2AA9 /* RemAppController.h */,
+				B77AD59010E1177B006A2AA9 /* RemAppController.m */,
+				B77AD59910E1177B006A2AA9 /* RemSearchViewController.h */,
+				B77AD5A110E1177B006A2AA9 /* RemSearchViewController.m */,
+				B77AD59B10E1177B006A2AA9 /* RemWebViewController.m */,
+				B77AD59C10E1177B006A2AA9 /* RemWebViewController.h */,
+				B77AD59E10E1177B006A2AA9 /* RemViewController.h */,
+				B77AD5A210E1177B006A2AA9 /* RemViewController.m */,
+				B77AD59D10E1177B006A2AA9 /* RemSplashViewController.h */,
+				B77AD5A510E1177B006A2AA9 /* RemSplashViewController.m */,
+				B792E4ED10E8D2940071469A /* RemNotesListViewController.h */,
+				B792E4EE10E8D2940071469A /* RemNotesListViewController.m */,
+				B77AD5A710E1177B006A2AA9 /* RemNotesViewController.h */,
+				B77AD5A810E1177B006A2AA9 /* RemNotesViewController.m */,
+				B77AD5AB10E1177B006A2AA9 /* SampleStoreAppDelegate.h */,
+				B77AD5AC10E1177B006A2AA9 /* SampleStoreAppDelegate.m */,
+				B792E22710E8AC330071469A /* RemUtils.h */,
+				B792E22810E8AC330071469A /* RemUtils.m */,
+				B7AE139010F4B274008BEEC1 /* RemInfoViewController.h */,
+				B7AE139110F4B274008BEEC1 /* RemInfoViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iMateriaMedica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				03E4D10C1247BE0B00883DC0 /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SampleStore_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B79825A010FC79480018B6AC /* iTunesArtWork */,
+				B779FD8210F62DD1007A87FE /* icons */,
+				B792E58B10E8FB9D0071469A /* NotesDB */,
+				B788D6D910E38D7F00BCEE21 /* Images */,
+				B77AD67410E11977006A2AA9 /* XIB */,
+				B77AD69910E11ADD006A2AA9 /* Message.htm */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				B77FFEAA10ECCC99007E3769 /* FAQ.htm */,
+				8D1107310486CEB800E47090 /* SampleStore-Info.plist */,
+				B77AD61A10E118EC006A2AA9 /* medica.sqlite */,
+				B77AD61C10E118EC006A2AA9 /* Medicine */,
+				038D1C5F1254E55F008DF356 /* Ent.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B77AD5DC10E117C2006A2AA9 /* libsqlite3.0.dylib */,
+				B77AD5D210E117AD006A2AA9 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B779FD8210F62DD1007A87FE /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				B779FD8510F62DD1007A87FE /* notes_tab.png */,
+				B779FD8F10F62E0B007A87FE /* remedy_tab.png */,
+				B79824FD10FC51180018B6AC /* info_tab.png */,
+				B79824FE10FC51180018B6AC /* faq_tab.png */,
+				B779FD8610F62DD1007A87FE /* search_tab.png */,
+			);
+			name = icons;
+			path = Resources/icons;
+			sourceTree = "<group>";
+		};
+		B77AD61C10E118EC006A2AA9 /* Medicine */ = {
+			isa = PBXGroup;
+			children = (
+				B7AE14DE10F4CD89008BEEC1 /* Info.png */,
+				B7AE14DF10F4CD89008BEEC1 /* Splash.png */,
+			);
+			name = Medicine;
+			path = Resources/Medicine;
+			sourceTree = "<group>";
+		};
+		B77AD67410E11977006A2AA9 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				B77FFDF810ECB5A8007E3769 /* RemTableCommonCell.xib */,
+				B7AE139210F4B274008BEEC1 /* RemInfoViewController.xib */,
+				B77AD59A10E1177B006A2AA9 /* RemViewController.xib */,
+				B77AD59310E1177B006A2AA9 /* ChampViewController.xib */,
+				B77BD27D10EDD5A2006EC9C3 /* RemTableCustomNoteCell.xib */,
+				B77AD59810E1177B006A2AA9 /* RemWebViewController.xib */,
+				B77AD59F10E1177B006A2AA9 /* RemSplashViewController.xib */,
+				B77AD5A010E1177B006A2AA9 /* RemTableCustomCell.xib */,
+				B792E4EF10E8D2940071469A /* RemNotesListViewController.xib */,
+				B77AD5A610E1177B006A2AA9 /* RemNotesViewController.xib */,
+				B77AD5A910E1177B006A2AA9 /* RemSearchViewController.xib */,
+			);
+			name = XIB;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B77BD37C10EDF621006EC9C3 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				B77BD27C10EDD5A2006EC9C3 /* RemTableCustomNoteCell.m */,
+				B77BD27E10EDD5A2006EC9C3 /* RemTableCustomNoteCell.h */,
+				B77FFDF710ECB5A8007E3769 /* RemTableCommonCell.h */,
+				B77FFDF910ECB5A8007E3769 /* RemTableCommonCell.m */,
+				B77AD59410E1177B006A2AA9 /* RemTableCustomCell.h */,
+				B77AD59710E1177B006A2AA9 /* RemTableCustomCell.m */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		B788D6D910E38D7F00BCEE21 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				037682CD12525E8F0037A077 /* Default-iPad.png */,
+				038D1C4B1254E518008DF356 /* Icon-72.png */,
+				038D1C4C1254E518008DF356 /* Icon-Small-50.png */,
+				038D1C4D1254E518008DF356 /* Icon-Small.png */,
+				038D1C4E1254E518008DF356 /* Icon-Small@2x.png */,
+				038D1C4F1254E518008DF356 /* Icon@2x.png */,
+				038D1C471254E33C008DF356 /* Icon.png */,
+				B798247510FC4BBE0018B6AC /* Default.png */,
+				B788D6A810E388FB00BCEE21 /* table_bottom.png */,
+				037682CF12525EE70037A077 /* Splash-iPad.png */,
+				B788D6D710E38D7B00BCEE21 /* TableCellArrow.png */,
+				B788D6A910E388FB00BCEE21 /* table_top.png */,
+				B788D6AA10E388FB00BCEE21 /* tablecellSinglerow.png */,
+				B77AD61710E118EC006A2AA9 /* table_middle.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B792E58B10E8FB9D0071469A /* NotesDB */ = {
+			isa = PBXGroup;
+			children = (
+				B792E58D10E8FBAE0071469A /* Notes.sqlite */,
+			);
+			name = NotesDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iMM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iMM" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMM;
+			productName = SampleStore;
+			productReference = 1D6058910D05DD3D006BFB54 /* iMateriaMedica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SampleStore" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iMM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				B77AD5AF10E1177B006A2AA9 /* ChampViewController.xib in Resources */,
+				B77AD5B110E1177B006A2AA9 /* RemWebViewController.xib in Resources */,
+				B77AD5B210E1177B006A2AA9 /* RemViewController.xib in Resources */,
+				B77AD5B410E1177B006A2AA9 /* RemSplashViewController.xib in Resources */,
+				B77AD5B510E1177B006A2AA9 /* RemTableCustomCell.xib in Resources */,
+				B77AD5BB10E1177B006A2AA9 /* RemNotesViewController.xib in Resources */,
+				B77AD5BD10E1177B006A2AA9 /* RemSearchViewController.xib in Resources */,
+				B77AD64110E118EC006A2AA9 /* table_middle.png in Resources */,
+				B77AD64410E118EC006A2AA9 /* medica.sqlite in Resources */,
+				B77AD69A10E11ADD006A2AA9 /* Message.htm in Resources */,
+				B788D6AB10E388FB00BCEE21 /* table_bottom.png in Resources */,
+				B788D6AC10E388FB00BCEE21 /* table_top.png in Resources */,
+				B788D6AD10E388FB00BCEE21 /* tablecellSinglerow.png in Resources */,
+				B788D6D810E38D7B00BCEE21 /* TableCellArrow.png in Resources */,
+				B792E4F110E8D2940071469A /* RemNotesListViewController.xib in Resources */,
+				B792E58E10E8FBAE0071469A /* Notes.sqlite in Resources */,
+				B77FFDFA10ECB5A8007E3769 /* RemTableCommonCell.xib in Resources */,
+				B77FFEAB10ECCC99007E3769 /* FAQ.htm in Resources */,
+				B77BD28010EDD5A2006EC9C3 /* RemTableCustomNoteCell.xib in Resources */,
+				B7AE139410F4B274008BEEC1 /* RemInfoViewController.xib in Resources */,
+				B7AE14E010F4CD89008BEEC1 /* Info.png in Resources */,
+				B7AE14E110F4CD89008BEEC1 /* Splash.png in Resources */,
+				B779FD8A10F62DD1007A87FE /* notes_tab.png in Resources */,
+				B779FD8B10F62DD1007A87FE /* search_tab.png in Resources */,
+				B779FD9110F62E0B007A87FE /* remedy_tab.png in Resources */,
+				B798247610FC4BBE0018B6AC /* Default.png in Resources */,
+				B79824FF10FC51180018B6AC /* info_tab.png in Resources */,
+				B798250010FC51180018B6AC /* faq_tab.png in Resources */,
+				B79825A110FC79480018B6AC /* iTunesArtWork in Resources */,
+				03E4D10E1247BE0B00883DC0 /* MainWindow-iPad.xib in Resources */,
+				03E4D1361247C4EA00883DC0 /* ChampViewController-iPad.xib in Resources */,
+				03E4D1561247C6A800883DC0 /* RemSearchViewController-iPad.xib in Resources */,
+				03E4D22D1247D09B00883DC0 /* RemTableCustomCell-iPad.xib in Resources */,
+				03E4D25C1247D30700883DC0 /* RemNotesListViewController-iPad.xib in Resources */,
+				03E4D2971247D58A00883DC0 /* RemNotesViewController-iPad.xib in Resources */,
+				03E4D2EB1247DA1000883DC0 /* RemWebViewController-iPad.xib in Resources */,
+				03E4D32A1247DDF600883DC0 /* RemInfoViewController-iPad.xib in Resources */,
+				03072F571249BE0B00B9CDBC /* Info-iPad.png in Resources */,
+				037682C712525DC80037A077 /* RemSplashViewController-iPad.xib in Resources */,
+				037682CE12525E8F0037A077 /* Default-iPad.png in Resources */,
+				037682D012525EE70037A077 /* Splash-iPad.png in Resources */,
+				038D1C481254E33C008DF356 /* Icon.png in Resources */,
+				038D1C501254E518008DF356 /* Icon-72.png in Resources */,
+				038D1C511254E518008DF356 /* Icon-Small-50.png in Resources */,
+				038D1C521254E518008DF356 /* Icon-Small.png in Resources */,
+				038D1C531254E518008DF356 /* Icon-Small@2x.png in Resources */,
+				038D1C541254E518008DF356 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				B77AD5AE10E1177B006A2AA9 /* RemAppController.m in Sources */,
+				B77AD5B010E1177B006A2AA9 /* RemTableCustomCell.m in Sources */,
+				B77AD5B310E1177B006A2AA9 /* RemWebViewController.m in Sources */,
+				B77AD5B610E1177B006A2AA9 /* RemSearchViewController.m in Sources */,
+				B77AD5B710E1177B006A2AA9 /* RemViewController.m in Sources */,
+				B77AD5B810E1177B006A2AA9 /* ChampViewController.m in Sources */,
+				B77AD5B910E1177B006A2AA9 /* DataBaseManager.m in Sources */,
+				B77AD5BA10E1177B006A2AA9 /* RemSplashViewController.m in Sources */,
+				B77AD5BC10E1177B006A2AA9 /* RemNotesViewController.m in Sources */,
+				B77AD5BE10E1177B006A2AA9 /* JMSBDBMgrWrapper.m in Sources */,
+				B77AD5BF10E1177B006A2AA9 /* SampleStoreAppDelegate.m in Sources */,
+				B792E22910E8AC330071469A /* RemUtils.m in Sources */,
+				B792E4F010E8D2940071469A /* RemNotesListViewController.m in Sources */,
+				B792E58910E8FB8A0071469A /* RemDBMgrNotes.m in Sources */,
+				B77FFDFB10ECB5A8007E3769 /* RemTableCommonCell.m in Sources */,
+				B77BD27F10EDD5A2006EC9C3 /* RemTableCustomNoteCell.m in Sources */,
+				B7AE139310F4B274008BEEC1 /* RemInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "~/WIP/mys2/code/SampleStore/Ent.plist";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SampleStore_Prefix.pch;
+				INFOPLIST_FILE = "SampleStore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 2.0;
+				PRODUCT_NAME = iMateriaMedica;
+				SDKROOT = iphoneos4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "~/WIP/mys2/code/SampleStore/Ent.plist";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SampleStore_Prefix.pch;
+				INFOPLIST_FILE = "SampleStore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = iMateriaMedica;
+				SDKROOT = iphoneos4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7AE153210F4CF8C008BEEC1 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Ent.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JESSY CHANDY";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4971B03B-5C5B-42E0-BDE2-C9209744A2FC";
+				SDKROOT = iphoneos4.0;
+			};
+			name = Distribution;
+		};
+		B7AE153310F4CF8C008BEEC1 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "~/WIP/mys2/code/SampleStore/Ent.plist";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SampleStore_Prefix.pch;
+				INFOPLIST_FILE = "SampleStore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = iMateriaMedica;
+				SDKROOT = iphoneos4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+		B7AE153410F4CF9E008BEEC1 /* DistributionAppstore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Ent.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JESSY CHANDY";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EA75FB89-AF50-46A8-814F-867267783E16";
+				SDKROOT = iphoneos4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DistributionAppstore;
+		};
+		B7AE153510F4CF9E008BEEC1 /* DistributionAppstore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "~/WIP/mys2/code/SampleStore/Ent.plist";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SampleStore_Prefix.pch;
+				INFOPLIST_FILE = "SampleStore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = iMateriaMedica;
+				SDKROOT = iphoneos4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DistributionAppstore;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alan Hochstein (53EZRC6L74)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B34700CB-B37D-4F64-A319-4C1CBA041113";
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos2.0]" = "iPhone Distribution: Alan Hochstein";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos2.0]" = "D7D531C8-6445-45E9-B0D9-9D0D8F57A6D6";
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iMM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				B7AE153310F4CF8C008BEEC1 /* Distribution */,
+				B7AE153510F4CF9E008BEEC1 /* DistributionAppstore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SampleStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				B7AE153210F4CF8C008BEEC1 /* Distribution */,
+				B7AE153410F4CF9E008BEEC1 /* DistributionAppstore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
